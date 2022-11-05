@@ -2,7 +2,7 @@
 import gridClass
 import Trie
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
     tryme = Trie.Trie()
     dictionary = open("words.txt", "r")
@@ -26,4 +26,4 @@ if __name__ == '__main__':
             actualList.append(Grid.words[word])
     actualList = list(dict.fromkeys(actualList))
     print(actualList)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
